@@ -5,7 +5,7 @@ in this project we sync the data that is sent from the first project with the on
 Laravel 9 <br>
 Firestore
 
-##Execution
+## Execution
 to execute the code we write a syncing function as a route  in the web.php it checks the records in the online database and compares them with the data of the api and it adds the new records depending on the sent ID <br>
 ```php
 Route::get('/',function(){
