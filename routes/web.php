@@ -14,10 +14,8 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/try',function(){
+
+Route::get('/',function(){
     // here we acquire the JSON folder from the api that is sent from the first project
     $res=Http::get('http://127.0.0.1:8000/api/blog');
 
